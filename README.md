@@ -1,16 +1,17 @@
 # AUTOMATED-TEST
 
-## Getting Started
-- Install [Python](https://www.python.org/downloads/) 🚧🔨
+## Prerequisite : Setup & Install tools
+- Install [Python](https://www.python.org/downloads/)
+  - Check Python version
+  ```yml
+  python -version
+  #python 3.9+
+  ```
+- Install [VSCode](https://code.visualstudio.com/download/) and Extension
+  - Extension : [donjayamanne.python-extension-pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+  - Extension : [robocorp.robocorp-code](https://marketplace.visualstudio.com/items?itemName=robocorp.robocorp-code)
+  - Extension : [robocorp.robotframework-lsp](https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp)
 
+- Install [RCC](https://github.com/robocorp/rcc#installing-rcc-from-command-line)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Build and Test
